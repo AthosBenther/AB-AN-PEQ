@@ -1,7 +1,5 @@
 class anpeq : Inventory_Base
 {
-	brrrrrrrrrrr
-	
 	anpeqLight m_Light;
 			
 	static int			REFLECTOR_ID = 1;
