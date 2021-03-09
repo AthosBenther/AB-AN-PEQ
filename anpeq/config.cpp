@@ -16,7 +16,8 @@ class cfgVehicles
 {
 	class Inventory_Base;
 	class Switchable_Base;
-	class anpeq : Inventory_Base
+	class UniversalLight;
+	class anpeq : UniversalLight
 	{
 		scope = 2;
 		displayName = "AN/PEQ-16 Flashlight";

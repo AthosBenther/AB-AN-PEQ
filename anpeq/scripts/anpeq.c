@@ -1,4 +1,4 @@
-class anpeq extends Inventory_Base
+class anpeq extends ItemBase
 {
 	anpeqLight m_Light;
 			
