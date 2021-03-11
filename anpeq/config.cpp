@@ -60,7 +60,7 @@ class cfgVehicles
 				class Health
 				{
 					hitpoints = 100;
-					healthLevels[] = {};
+					healthLevels[] = {{1.0, {}}, {0.7, {}}, {0.5, {}}, {0.3, {}}, {0.0, {}}};
 				};
 			};
 		};
@@ -103,7 +103,7 @@ class cfgVehicles
 	{
 		scope = 2;
 		displayName="AN/PEQ-16 Flashlight (Camo)";
-		color = "Black";
+		color = "Camo";
 		lootCategory = "Crafted";
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {
