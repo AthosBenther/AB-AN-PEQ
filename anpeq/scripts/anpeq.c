@@ -11,7 +11,9 @@ class anpeq extends ItemBase
 	static string 		LIGHT_ON_REFLECTOR 	= "dz\\weapons\\attachments\\data\\m4_flashlight_on.rvmat";
 	
 	ref array<int> 		m_AttachmentSlotsCheck;
-	
+
+	//pType.AddItemInHandsProfileIK("UniversalLight", "dz/anims/workspaces/player/player_main/props/player_main_1h_flashlight.asi", toolsOneHanded, "dz/anims/anm/player/ik/attachments/light/universallight.anm");
+
 	void anpeq()
 	{
 		InitAttachmentsSlotsToCheck(m_AttachmentSlotsCheck);
