@@ -1,0 +1,11 @@
+name = "anpeq";
+picture = "anpeq/gui/images/dayz_editor_icon_black.edds";
+logo = "anpeq/gui/images/dayz_editor_icon_black.edds";
+logoSmall = "anpeq/gui/images/dayz_editor_icon_black.edds";
+logoOver = "anpeq/gui/images/dayz_editor_icon_black.edds";
+tooltip = "anpeq";
+overview = "";
+action = "";
+author = "";
+authorID = "";
+version = "";
