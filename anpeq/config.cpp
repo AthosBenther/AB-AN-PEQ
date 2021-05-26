@@ -123,31 +123,3 @@ class CfgNonAIVehicles
 		model = "AB-AN-PEQ\anpeq\anpeq.p3d";
 	};
 };
-
-class CfgMods
-{
-	class anpeq
-	{
-		dir = "anpeq";
-		picture = "";
-		action = "";
-		hideName = 1;
-		hidePicture = 1;
-		name = "AN/PEQ-16 Flashlight";
-		credits = "Athos Benther";
-		author = "Athos Benther";
-		authorID = "0";
-		version = "1.0";
-		extra = 0;
-		type = "mod";
-		dependencies[] = {"World"};
-		class defs
-		{
-			class worldScriptModule
-			{
-				value = "";
-				files[] = {"AB-AN-PEQ/anpeq/scripts"};
-			};
-		};
-	};
-};
